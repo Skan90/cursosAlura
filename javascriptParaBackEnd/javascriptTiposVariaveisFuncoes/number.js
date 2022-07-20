@@ -22,3 +22,9 @@ console.log(alura * primeiroNumero)
 var a = 10
 var b = 0
 console.log(a/b) // Infinity
+
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
+
+console.log(operacao)
