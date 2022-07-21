@@ -1,3 +1,5 @@
+//Crie um objeto Peter Parker no Javascript de acordo com o que fizemos
+
 const siperMan = {
     nome: "Peter Benjamin Parker",
     idade: 15,
@@ -18,3 +20,5 @@ siperMan.tia = "May Parker-Jameson";
 siperMan.tioAdotivo = "Jay Jameson";
 
 console.log(siperMan)
+
+// https://marvel.fandom.com/pt-br/wiki/Peter_Parker_(Terra-616) LAST ACESS: 21/07/2022
