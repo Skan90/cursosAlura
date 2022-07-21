@@ -12,3 +12,5 @@ console.log(arrayVazia.length)
 arrayVazia.push(50)
 console.log(arrayVazia)
 console.log(arrayVazia.length)
+
+// documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
