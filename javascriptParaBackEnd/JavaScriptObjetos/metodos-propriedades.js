@@ -3,7 +3,7 @@
 novo tipo de cliente para contas poupança.*/
 
 class Cliente {
-    //As necessidades para criação do "cliente"
+    //As necessidades para criação do "cliente", as PROPRIEDADES
     constructor(nome, email, cpf, saldo)
     {
         this.nome = nome
@@ -13,7 +13,7 @@ class Cliente {
     }
     
     // não precisa escrever function, é um metódo no contexto é uma função
-    
+    // METÓDOS para interação e comportamentos para esse objeto
     depositar(valor)
     {
         this.saldo += valor
@@ -42,11 +42,14 @@ class ClientePoupanca extends Cliente{
 
 }
 
-
+// CRIAÇÃO  DO OBJETO, tendo como base a CLASSE e suas PROPRIEDADES
 const rafael = new ClientePoupanca("Rafael", "r@email.com", "44447777885", 120, 500)
 
 console.log(rafael)
 
+
+// Os METÓDOS (ou  FUNÇÕES) criados e herdados, 
+// estão todos disponíveis para uso com o OBJETO depois da CRIAÇÃO.
 rafael.depositar(200)
 rafael.depositarPoupanca(180)
 
