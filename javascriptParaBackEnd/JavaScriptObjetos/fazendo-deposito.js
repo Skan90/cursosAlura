@@ -18,5 +18,11 @@ const cliente = {
         }
     ],
     saldo: 100,
-    
+    depositar:function(valor){
+        this.saldo += valor
+    }
 };
+
+console.log(cliente.saldo)
+cliente.depositar(30)
+console.log(cliente.saldo)
