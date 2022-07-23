@@ -27,8 +27,10 @@ class Cliente {
 
 // super passa as propriedades que queremos que a class herde
 // this acrescentamos as propriedades a mais da classe
+// Classe NÃO LEVA PARAMÊTRO "()"
+// Elas são todas passadas no CONSTRUTOR "{}"
 
-class ClientePoupanca extends Cliente{
+class ClientePoupanca extends Cliente {
     constructor(nome, email, cpf, saldo, saldoPoupanca){
         super(nome, email, cpf, saldo)
         this.saldoPoupanca = saldoPoupanca
@@ -50,6 +52,10 @@ console.log(rafael)
 
 // Os METÓDOS (ou  FUNÇÕES) criados e herdados, 
 // estão todos disponíveis para uso com o OBJETO depois da CRIAÇÃO.
+
+// Primeiro se chama a "nova instância" (rafael)
+// e logo após o metódo disponível (depositar ou depositarPoupanca)
+// Exemplo:
 rafael.depositar(200)
 rafael.depositarPoupanca(180)
 
