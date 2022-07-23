@@ -22,7 +22,7 @@ const clientes = [
 			nome: "Ana Luisa",
 			idade: 62,
 			cpf: "11144488852",
-			email: "anal@email.com",
+			email: "analuz@email.com",
 			fones: ["5553888888888", 
 			"5553777777788"],
 			dependentes: [
