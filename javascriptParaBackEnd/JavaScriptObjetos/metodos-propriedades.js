@@ -54,3 +54,11 @@ rafael.depositar(200)
 rafael.depositarPoupanca(180)
 
 console.log(rafael)
+
+
+//CLASSES são consideradas como FUNÇÕES
+// (Syntatctic Sugar: https://sophiali.dev/syntactic-sugar-examples-javascript)
+//Porém as CLASSES diferente das FUNÇÕES NOMEADAS (não anonimas)
+// NÃO TEM HOISTING, ou seja, não podem ser chamadas antes de ser
+// declaradas no código.
+console.log(typeof ClientePoupanca)
