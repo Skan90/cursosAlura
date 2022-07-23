@@ -15,7 +15,7 @@ const clientes = [
 			{
 				nome: "Bárbara",
 				parentesco: "esposa",
-				dataNasc: "28//08/1991"
+				dataNasc: "28/08/1991"
 			}]
 		},
 		{
