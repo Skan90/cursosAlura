@@ -17,6 +17,7 @@ const rafael = new Cliente("Rafael", "1114448884", "rafael@email.com", 100)
 
 console.log(rafael)
 
+// No Console do Navegador:
 // rafael.__proto__
 // rafael.__proto__.__proto__
 //console do navegador trás propriedades não enumeráveis
