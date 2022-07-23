@@ -1,5 +1,5 @@
 class Cliente {
-    //
+    //As necessidades para criação do "cliente"
     constructor(nome, email, cpf, saldo)
     {
         this.nome = nome
