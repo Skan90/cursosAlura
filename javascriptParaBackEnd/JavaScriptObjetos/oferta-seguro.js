@@ -19,7 +19,7 @@ const cliente = {
         {
             nome: "Bárbara",
             parentesco: "esposa",
-            dataNasc: "28//08/1991"
+            dataNasc: "28/08/1991"
         }
     ],
     saldo: 100,
