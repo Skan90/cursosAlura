@@ -55,6 +55,7 @@ console.log(rafael)
 
 // Primeiro se chama a "nova instância" (rafael)
 // e logo após o metódo disponível (depositar ou depositarPoupanca)
+// com um "." (PONTO) entre elas.
 // Exemplo:
 rafael.depositar(200)
 rafael.depositarPoupanca(180)
