@@ -4,7 +4,7 @@
 Repositório para códigos e arquivos relacionados ao cursos da plataforma on-line Alura.
 
 
-Códigos desenvolvidos durante o curso de "JavaScript: programação orientada a objetos" já concluído com sucesso:
+Códigos desenvolvidos durante o curso de "JavaScript: programação orientada a objetos" em andamento (2022-07-24):
 
 https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos
 
