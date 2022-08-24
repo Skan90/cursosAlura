@@ -14,9 +14,3 @@ export default class User {
     }
 }
 
-
-const novoUser = new User("Rafael", "rafa@email.com", "2022-07-24")
-console.log(novoUser)
-console.log(novoUser.exibirInfos())
-
-console.log(User.prototype.isPrototypeOf(novoUser))
