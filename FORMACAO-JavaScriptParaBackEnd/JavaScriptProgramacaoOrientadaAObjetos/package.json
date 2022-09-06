@@ -1,7 +1,7 @@
 {
   "name": "cursosalura",
   "version": "1.0.0",
-  "description": "", 
+  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Skan90/cursosAlura/issues"
   },
-  "homepage": "https://github.com/Skan90/cursosAlura#readme"
+  "homepage": "https://github.com/Skan90/cursosAlura#readme",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
 }
